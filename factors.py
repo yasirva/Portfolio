@@ -13,4 +13,6 @@ def factors(N):
                 break
         else:
             i += 1
+    if len(factors)==0:
+        factors.append(N)
     return factors
